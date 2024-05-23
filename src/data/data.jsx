@@ -4,160 +4,162 @@ export const eventsData = [
         date: "1 июня 2022",
         title: "Фестиваль детства и юности «Большая перемена»",
         desc: "Участие в выставочной зоне университета",
-        srl: "../../../public/photo_1.png",
+        srl: './photo_1.png',
     },
     {
         id: 1,
         date: "25-26 сентября 2021",
         title: "Фестиваль науки и технологий «Техносреда»",
         desc: "Презентация разработок в зоне вузово фестиваля",
-        srl: "../../../public/photo_2.png",
+        srl: "./photo_2.png",
     },
     {
         id: 2,
         date: "2 октября 2021",
         title: "Geek Picnic – международный фестиваль науки и технологий",
         desc: "Участие в экспозиции фестиваля",
-        srl: "../../../public/photo_3.png",
+        srl: "/photo_3.png",
     },
     {
         id: 3,
         date: "9-10 октября 2021",
         title: "Всероссийский фестиваль NAUKA 0+",
         desc: "Участие в выставочной зоне университета",
-        srl: "../../../public/photo_4.png",
+        srl: "/photo_4.png",
     },
     {
         id: 4,
         date: "15-18 июня 2022",
         title: "55-я Московская международная выставка ОБРАЗОВАНИЕ И КАРЬЕРА",
-        desc: "Участие в выстовачной зоне Российского экспортного центра - «Сделано в России»",
-        srl: "../../../public/photo_5.png",
+        desc: "Участие в выставочной зоне Российского экспортного центра - «Сделано в России»",
+        srl: "/photo_5.png",
     },
     {
         id: 5,
         date: "7 декабря 2021",
         title: "Nobel Vision. Open Innovations 2.0",
         desc: "Участие в выставочной зоне Министерства образования",
-        srl: "../../../public/photo_6.png",
+        srl: "/photo_6.png",
     },
     {
         id: 6,
         date: "2 апреля 2021",
         title: "День Открытых дверей",
         desc: "Участие в выставочной зоне инициативных проектов",
-        srl: "../../../public/photo_7.png",
+        srl: "/photo_7.png",
     },
     {
         id: 7,
         date: "1 июня 2021",
         title: "Фестиваль детства и юности «Большая перемена»",
         desc: "Участие в выставочной зоне университета",
-        srl: "../../../public/photo_8.png",
+        srl: "/photo_8.png",
     },
     {
         id: 8,
         date: "15-18 июня 2022",
         title: "XXV Петербургский международный экономический форум",
-        desc: "Участие в выстовачной зоне Российского экспортного центра - «Сделано в России»",
-        srl: "../../../public/photo_9.png",
+        desc: "Участие в выставочной зоне Российского экспортного центра - «Сделано в России»",
+        srl: "/photo_9.png",
     },
     {
         id: 9,
         date: "2 июля 2022",
         title: "Сабантуй",
         desc: "Участие в выставочной зоне университета",
-        srl: "../../../public/photo_10.png",
+        srl: "/photo_10.png",
     },
     {
         id: 10,
         date: "30 июля 2022",
         title: "Geek Picnic – международный фестиваль науки и технологий",
         desc: "Участие в экспозиции фестиваля",
-        srl: "../../../public/photo_11.png",
+        srl: "/photo_11.png",
     },
     {
         id: 11,
         date: "20-21 августа 2022",
         title: "Авиасалон «Детский авиационно-космический салон 2022»",
         desc: "Участие в выставочной зоне университета",
-        srl: "../../../public/photo_12.png",
+        srl: "/photo_12.png",
     },
     {
         id: 12,
         date: "10-11 сентября 2022",
         title: "Навигатор Поступления 2022 МСК",
         desc: "Участие в выставочной зоне университета",
-        srl: "../../../public/photo_13.png",
+        srl: "/photo_13.png",
     },
     {
         id: 13,
         date: "15 сентября 2022",
         title: "VI Международная конференция по аддитивным технологиям",
         desc: "Участие в выставочной зоне стартап проектов",
-        srl: "../../../public/photo_14.png",
+        srl: "/photo_14.png",
     },
     {
         id: 14,
         date: "24-25 сентября 2022",
         title: "Навигатор Поступления 2022 СПБ",
         desc: "Участие в выставочной зоне университета",
-        srl: "../../../public/photo_15.png",
+        srl: "/photo_15.png",
     },
     {
         id: 15,
         date: "1 октября 2022",
         title: "День открытых дверей",
         desc: "Участие в выставочной зоне инициативных проектов",
-        srl: "../../../public/photo_2.png",
+        srl: "/photo_2.png",
     },
     {
         id: 16,
         date: "2 июля 2022",
         title: "Сабантуй",
         desc: "Участие в выставочной зоне университета",
-        srl: "../../../public/photo_5.png",
+        srl: "/photo_5.png",
     },
 ]
+
 
 export const galleryData = [
     {
         id: 1,
-        src: '../../../public/Gallery1.png',
+        src: '/Gallery1.png',
     },
     {
         id: 2,
-        src: '../../../public/Gallery2.png',
+        src: '/Gallery2.png',
     },
     {
         id: 3,
-        src: '../../../public/Gallery3.png',
+        src: '/Gallery3.png',
     },
     {
         id: 4,
-        src: '../../../public/Gallery4.png',
+        src: '/Gallery4.png',
     },
     {
         id: 5,
-        src: '../../../public/Gallery5.png',
+        src: '/Gallery5.png',
     },
     {
         id: 6,
-        src: '../../../public/Gallery6.png',
+        src: '/Gallery6.png',
     },
     {
         id: 7,
-        src: '../../../public/Gallery7.png',
+        src: '/Gallery7.png',
     },
     {
         id: 8,
-        src: '../../../public/Gallery8.png',
+        src: '/Gallery8.png',
     },
     {
         id: 9,
-        src: '../../../public/Gallery9.png'
+        src: '/Gallery9.png'
     }
-]
+];
+
 
 export const QuestionData = [
     {
@@ -285,86 +287,86 @@ export const BlueCharacteristicsList = [
 export const SphereGallery = [
     {
         id: 1,
-        src: '../../../public/SphereGallery1.png',
+        src: '/SphereGallery1.png',
         description: "Ювелирное дело",
     },
     {
         id: 2,
-        src: '../../../public/SphereGallery2.png',
+        src: '/SphereGallery2.png',
         description: "Стоматология",
     },
     {
         id: 3,
-        src: '../../../public/SphereGallery3.png',
+        src: '/SphereGallery3.png',
         description: "Машиностроение",
     },
     {
         id: 4,
-        src: '../../../public/SphereGallery4.png',
+        src: '/SphereGallery4.png',
         description: "Медицина",
     },
     {
         id: 5,
-        src: '../../../public/SphereGallery5.png',
+        src: '/SphereGallery5.png',
         description: "Автомобилестроение",
     },
     {
         id: 6,
-        src: '../../../public/SphereGallery6.png',
+        src: '/SphereGallery6.png',
         description: "Архитектура",
     },
     {
         id: 7,
-        src: '../../../public/SphereGallery7.png',
+        src: '/SphereGallery7.png',
         description: "Прототипирование",
     },
     {
         id: 8,
-        src: '../../../public/SphereGallery8.png',
+        src: '/SphereGallery8.png',
         description: "Текстильная промышленность",
     },
     {
         id: 9,
-        src: '../../../public/SphereGallery9.png',
+        src: '/SphereGallery9.png',
         description: "Обувная промышленность",
     }
-]
+];
 
 export const ExampleGallery = [
     {
         id: 1,
-        src: '../../../public/ExampleGallery1.png',
+        src: '/ExampleGallery1.png',
     },
     {
         id: 2,
-        src: '../../../public/ExampleGallery2.png',
+        src: '/ExampleGallery2.png',
     },
     {
         id: 3,
-        src: '../../../public/ExampleGallery3.png',
+        src: '/ExampleGallery3.png',
     },
     {
         id: 4,
-        src: '../../../public/ExampleGallery4.png',
+        src: '/ExampleGallery4.png',
     },
     {
         id: 5,
-        src: '../../../public/ExampleGallery5.png',
+        src: '/ExampleGallery5.png',
     },
     {
         id: 6,
-        src: '../../../public/ExampleGallery6.png',
+        src: '/ExampleGallery6.png',
     },
     {
         id: 7,
-        src: '../../../public/ExampleGallery7.png',
+        src: '/ExampleGallery7.png',
     },
     {
         id: 8,
-        src: '../../../public/ExampleGallery8.png',
+        src: '/ExampleGallery8.png',
     },
     {
         id: 9,
-        src: '../../../public/ExampleGallery9.png',
+        src: '/ExampleGallery9.png',
     }
-]
+];

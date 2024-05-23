@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import QualityImage2 from '../../../../public/QualityImage.png';
 import './YellowQuality.css';
 
 const Quality = () => {
@@ -56,7 +57,7 @@ const Quality = () => {
       </motion.div>
       <motion.img 
         className="quality__image" 
-        src='../../../../public/QualityImage.png' 
+        src={QualityImage2}
         alt="Quality Image"
         variants={itemVariants(1.3)}
       />

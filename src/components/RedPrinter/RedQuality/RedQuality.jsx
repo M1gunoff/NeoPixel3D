@@ -1,7 +1,9 @@
 import { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import QualityImage from '../../../../public/QualityImage.png'
 import './RedQuality.css';
+
 
 const Quality = () => {
     const [ref, inView] = useInView({
@@ -42,7 +44,7 @@ const Quality = () => {
             <motion.p variants={itemVariants(0.9)} className="quality__description">4K Mono LCD обеспечивает беспрецедентный уровень качества получаемого изделия</motion.p>
             <motion.a  variants={itemVariants(1.1)} href="#contacts" className="quality__button--red">Заказать</motion.a>
         </motion.div>
-        <motion.img variants={itemVariants(1.3)} className="quality__image" src='../../../../public/QualityImage.png' alt="Quality Image"/>
+        <motion.img variants={itemVariants(1.3)} className="quality__image" src={QualityImage} alt="Quality Image"/>
     </motion.div>
   )
 }

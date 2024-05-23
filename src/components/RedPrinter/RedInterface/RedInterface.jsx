@@ -1,6 +1,9 @@
 import { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import RedInterface1 from '../../../../public/RedInterface1.png'
+import RedInterface2 from '../../../../public/RedInterface2.png'
+import RedInterface3 from '../../../../public/Blue3.png'
 import './RedInterface.css';
 
 const Interface = () => {
@@ -43,9 +46,9 @@ const Interface = () => {
             <motion.a variants={itemVariants(1.1)} href="#contacts" className="interface__button--red">Заказать</motion.a>
         </motion.div>
         <motion.div variants={itemVariants(1.3)} className="interface__right">
-            <motion.img variants={itemVariants(1.5)} className="interface__image" src='../../../../public/RedInterface1.png'/>
-            <motion.img variants={itemVariants(1.7)} className="interface__image" src='../../../../public/RedInterface2.png'/> 
-            <motion.img variants={itemVariants(1.9)} className="interface__image" src='../../../../public/Blue3.png'/> 
+            <motion.img variants={itemVariants(1.5)} className="interface__image" src={RedInterface1}/>
+            <motion.img variants={itemVariants(1.7)} className="interface__image" src={RedInterface2}/> 
+            <motion.img variants={itemVariants(1.9)} className="interface__image" src={RedInterface3}/> 
         </motion.div>
     </motion.div>
   )

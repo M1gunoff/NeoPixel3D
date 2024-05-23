@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import VlareImage1 from '../../../../public/VlareImage.png';
 import './YellowVlare.css';
 
 const Vlare = () => {
@@ -54,7 +55,7 @@ const Vlare = () => {
       <motion.div className="vlare__right" variants={itemVariants(1.1)}>
         <motion.img 
           className="vlare__image" 
-          src='../../../../public/VlareImage.png' 
+          src={VlareImage1}
           alt="Vlare Slicer"
           variants={itemVariants(1.3)}
         />

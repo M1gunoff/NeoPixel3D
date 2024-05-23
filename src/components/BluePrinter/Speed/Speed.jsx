@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import SpeedImage from '../../../../public/SpeedImage.png'
 import './Speed.css';
 
 const Speed = () => {
@@ -53,7 +54,7 @@ const Speed = () => {
       </motion.div>
       <motion.img 
         className="speed__image" 
-        src='../../../../public/SpeedImage.png' 
+        src={SpeedImage}
         alt="Speed" 
         variants={itemVariants(1.6)}
       />

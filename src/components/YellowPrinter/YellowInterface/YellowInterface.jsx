@@ -1,6 +1,9 @@
 import { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import YellowInterface1 from '../../../../public/YellowInterface1.png';
+import YellowInterface2 from '../../../../public/YellowInterface2.png';
+import YellowInterface3 from '../../../../public/Blue3.png'
 import './YellowInterface.css';
 
 const Interface = () => {
@@ -57,19 +60,19 @@ const Interface = () => {
       <motion.div className="interface__right" variants={itemVariants(1.3)}>
         <motion.img 
           className="interface__image" 
-          src='../../../../public/YellowInterface1.png' 
+          src={YellowInterface1}
           alt="Interface Image 1"
           variants={itemVariants(1.5)}
         />
         <motion.img 
           className="interface__image" 
-          src='../../../../public/YellowInterface2.png' 
+          src={YellowInterface2}
           alt="Interface Image 2"
           variants={itemVariants(1.7)}
         /> 
         <motion.img 
           className="interface__image" 
-          src='../../../../public/Blue3.png' 
+          src={YellowInterface3}
           alt="Interface Image 3"
           variants={itemVariants(1.9)}
         /> 
