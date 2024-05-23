@@ -1,0 +1,37 @@
+.header__container--yellow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    padding: 1rem 2rem; 
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+.header__fixed--yellow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 11%;
+    backdrop-filter: blur(10px);
+    background-color: hsla(0, 0%, 6%, 0.4);
+    z-index: 1000; 
+}
+
+.header__navbarItems--yellow {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.header__navbarItems--yellow a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 300;
+    transition: transform 0.3s ease;
+}
+
+.header__navbarItems--yellow a:hover {
+    color: var(--yellow-color);
+    transform: scale(1.2);
+}

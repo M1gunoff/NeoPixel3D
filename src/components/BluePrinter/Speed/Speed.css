@@ -1,0 +1,35 @@
+.speed__container {
+    width: 100vw;
+    padding: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.speed__left {
+    width: 45%;
+    margin-top: 5rem;
+}
+
+.speed__title {
+    margin-top: 8cqh;
+    font-size: 2.3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.speed__description {
+    color: hsla(0, 0%, 81%, 1);
+    font-size: 1.3rem;
+    margin-bottom: 5rem;
+}
+
+.speed__image {
+    border-top-right-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    width: 40rem;
+    margin-right: 2rem;
+}

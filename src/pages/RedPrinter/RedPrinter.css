@@ -1,0 +1,10 @@
+.redPrinter {
+    background-image: url(../../../public/RedPrinter.png);
+    background-size: cover; 
+    background-position: center;
+}
+
+.redPrinter__container {
+    padding: 3.5rem 3.5rem; 
+    padding-bottom: 14rem;
+}

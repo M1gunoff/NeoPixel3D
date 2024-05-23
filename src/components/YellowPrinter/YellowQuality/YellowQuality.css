@@ -1,0 +1,52 @@
+.quality__container {
+    width: 100vw;
+    padding: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    background: hsla(0, 2%, 9%, 1);
+
+}
+
+.quality__left {
+    width: 45%;
+}
+
+.quality__title {
+    margin-top: 5rem;
+    font-size: 2.3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.quality__description {
+    color: hsla(0, 0%, 81%, 1);
+    font-size: 1.3rem;
+    margin-bottom: 5rem;
+}
+
+.quality__button--yellow {
+    border: 2px solid var(--yellow-color);
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    border-radius: 2em;
+    cursor: pointer;
+    padding: 0.6rem 2.5rem;
+    font-size: 1.05rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.quality__button--yellow:hover {
+    background-color: var(--yellow-color);
+    color: white;
+}
+
+.quality__image {
+    border-top-right-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    width: 40rem;
+    margin-right: 2rem;
+}

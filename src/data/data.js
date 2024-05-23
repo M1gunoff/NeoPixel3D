@@ -192,3 +192,179 @@ export const QuestionData = [
                   "Проверьте механику устройства. Возможно, компоненты требуют замены"]
     }
 ]
+
+export const BlueCharacteristicsList = [
+    {
+        id: 1,
+        title: "Экран экспозиции:",
+        desc: "5,5 дюйма, монохромный",
+    },
+    {
+        id: 2,
+        title: "Размеры печати:",
+        desc: "8 x 13,2 x 8 см (ВШГ)",
+    },
+    {
+        id: 3,
+        title: "Коэф-т пропускания света:",
+        desc: "10%",
+    },
+    {
+        id: 4,
+        title: "Коэф-т контрастности:",
+        desc: "400:1",
+    },
+    {
+        id: 5,
+        title: "Источник света:",
+        desc: "унифицированная матрица (24 светодиода)",
+    },
+    {
+        id: 6,
+        title: "Плотность светового потока:",
+        desc: "75000 люксов",
+    },
+    {
+        id: 7,
+        title: "Мощность матрицы:",
+        desc: "135 вт",
+    },
+    {
+        id: 8,
+        title: "Разрешение дисплея:",
+        desc: "3 840 x 2400 пикселей (4K)",
+    },
+    {
+        id: 9,
+        title: "Размер пикселя:",
+        desc: "25 мкм",
+    },
+    {
+        id: 10,
+        title: "Минимальная высота слоя:",
+        desc: "10 мкм",
+    },
+    {
+        id: 11,
+        title: "Скорость печати:",
+        desc: "10 см / час",
+    },
+    {
+        id: 12,
+        title: "Панель управления:",
+        desc: "сенсорный TFT-дисплей с диагональю 3,5 дюйма",
+    },
+    {
+        id: 13,
+        title: "Интерфейс обмена данными:",
+        desc: "USB-C, Wi-Fi",
+    },
+    {
+        id: 14,
+        title: "Источник питания:",
+        desc: "300 Вт",
+    },
+    {
+        id: 15,
+        title: "Программное обеспечение:",
+        desc: "Vlare Slicer",
+    },
+    {
+        id: 16,
+        title: "Габариты устройства:",
+        desc: "38 x 22 x 21 см (ВШГ)",
+    },
+    {
+        id: 17,
+        title: "Вес устройства:",
+        desc: "5 кг",
+    }
+
+]
+
+export const SphereGallery = [
+    {
+        id: 1,
+        src: '../../../public/SphereGallery1.png',
+        description: "Ювелирное дело",
+    },
+    {
+        id: 2,
+        src: '../../../public/SphereGallery2.png',
+        description: "Стоматология",
+    },
+    {
+        id: 3,
+        src: '../../../public/SphereGallery3.png',
+        description: "Машиностроение",
+    },
+    {
+        id: 4,
+        src: '../../../public/SphereGallery4.png',
+        description: "Медицина",
+    },
+    {
+        id: 5,
+        src: '../../../public/SphereGallery5.png',
+        description: "Автомобилестроение",
+    },
+    {
+        id: 6,
+        src: '../../../public/SphereGallery6.png',
+        description: "Архитектура",
+    },
+    {
+        id: 7,
+        src: '../../../public/SphereGallery7.png',
+        description: "Прототипирование",
+    },
+    {
+        id: 8,
+        src: '../../../public/SphereGallery8.png',
+        description: "Текстильная промышленность",
+    },
+    {
+        id: 9,
+        src: '../../../public/SphereGallery9.png',
+        description: "Обувная промышленность",
+    }
+]
+
+export const ExampleGallery = [
+    {
+        id: 1,
+        src: '../../../public/ExampleGallery1.png',
+    },
+    {
+        id: 2,
+        src: '../../../public/ExampleGallery2.png',
+    },
+    {
+        id: 3,
+        src: '../../../public/ExampleGallery3.png',
+    },
+    {
+        id: 4,
+        src: '../../../public/ExampleGallery4.png',
+    },
+    {
+        id: 5,
+        src: '../../../public/ExampleGallery5.png',
+    },
+    {
+        id: 6,
+        src: '../../../public/ExampleGallery6.png',
+    },
+    {
+        id: 7,
+        src: '../../../public/ExampleGallery7.png',
+    },
+    {
+        id: 8,
+        src: '../../../public/ExampleGallery8.png',
+    },
+    {
+        id: 9,
+        src: '../../../public/ExampleGallery9.png',
+    }
+]

@@ -1,12 +1,12 @@
 import css from './Layout.module.css';
-import Header from '../../components/Header/Header';
-import Home from '../../components/Home/Home';
-import Application from '../../components/Application/Application';
-import Events from '../../components/Events/Events';
-import Gallery from '../../components/Gallery/Gallery';
-import Consultation from '../../components/Consultation/Consultation';
-import Questions from '../../components/Questions/Questions';
-import Footer from '../../components/Footer/Footer';
+import Header from '../../components/HomePage/Header/Header';
+import Home from '../../components/HomePage/Home/Home';
+import Application from '../../components/HomePage/Application/Application';
+import Events from '../../components/HomePage/Events/Events';
+import Gallery from '../../components/HomePage/Gallery/Gallery';
+import Consultation from '../../components/HomePage/Consultation/Consultation';
+import Questions from '../../components/HomePage/Questions/Questions';
+import Footer from '../../components/HomePage/Footer/Footer';
 
 const Layout = () => {
   return (

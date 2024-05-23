@@ -1,0 +1,49 @@
+.home__container {
+    margin-top: 25rem;
+}
+
+.home__container h1 {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 450;
+    margin: 0;
+}
+
+.home__titleBlue--yellow {
+    color: var(--yellow-color);
+}
+
+.home__description {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.home__description p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgb(206, 206, 206);
+    align-items: center; 
+    text-wrap: nowrap;
+}
+
+
+.home__button--yellow {
+    border: 2px solid var(--yellow-color);
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    padding-inline: 0;
+    padding-block: 0;
+    padding: 1rem 3.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2em; 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home__button--yellow:hover {   
+    background-color: var(--yellow-color);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1);
+}

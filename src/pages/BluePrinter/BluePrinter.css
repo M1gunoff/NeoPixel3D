@@ -1,0 +1,10 @@
+.bluePrinter {
+    background-image: url(../../../public/BluePrinter.png);
+    background-size: cover; 
+    background-position: center;
+}
+
+.bluePrinter__container {
+    padding: 3.5rem 3.5rem; 
+    padding-bottom: 14rem;
+}

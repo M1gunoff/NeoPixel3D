@@ -1,0 +1,33 @@
+.blueDescription {
+    display: flex;
+    justify-content: space-between;
+    padding: 3.5rem 3.5rem; 
+    margin: 1.5rem 0;
+}
+
+.blueDescription h1 {
+    text-transform: uppercase;
+    width: 35%;
+    font-size: 2rem;
+    font-weight: 450;
+}
+
+.blueDescription__list {
+    width: 60%;
+    color: hsla(0, 0%, 81%, 1);
+    list-style: none;
+}
+
+.blueDescription__item--red {
+    margin-bottom: 0.5rem;
+    position: relative;
+    font-size: 1.2rem;
+}
+
+.blueDescription__item--red::before {
+    content: '•'; 
+    color: var(--red-color); 
+    font-size: 1.2rem; 
+    position: absolute;
+    left: -1.5rem; 
+}

@@ -3,6 +3,10 @@
   --background-color-2: #171616;
   --primary-color: rgb(38, 170, 225);
   --primary-color-darken: rgba(38, 170, 225, 0.9);
+  --blue-color: hsla(239, 100%, 63%, 1);
+  --red-color: hsla(350, 100%, 50%, 1);
+  --yellow-color: hsla(51, 100%, 50%, 1);
+
 
 
 }
